@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LIVROS</title>
+
+</head>
+</head>
+<body>
+
+<canvas class="line-chart"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+<script>
+	var ctx = document.getElementesByClassName("line-chart");
+	var chartGraph = new Chart(ctx,{
+		
+		type: 'line',
+		
+		
+	});
+</script>
+
+	<div id="container">
+
+
+		<div class="banneracima">
+
+			<div align="center">
+				<H2>E-COMMERCE DE LIVROS PARA PROGRAMADORES</H2>
+			</div>
+
+
+			<form name="frmLogin" action="Login" method="post">
+
+				<div class="caixaDeTextoLado">
+					<div class="labelCaixaTexto">
+						<label for="txtEmail">Email</label>
+					</div>
+					<input type="text" id="txtEmail" name="txtEmail" size="40" />
+				</div>
+
+				<div class="caixaDeTextoLado">
+					<div class="labelCaixaTexto">
+						<label for="txtSenha">Senha</label>
+					</div>
+					<input type="text" id="txtSenha" name="txtSenha" size="15" />
+				</div>
+
+				<input type="submit" id="OPERACAO" name="OPERACAO" value="LOGIN" />
+				<a href=frmCadCli.jsp>Cadastre-se</a>
+
+			</form>
+
+
+
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">LÓGICA</a></li>
+				<li><a href="java.jsp">JAVA</a></li>
+				<li><a href="c.jsp">C/C++/C#</a></li>
+				<li><a href="vb.jsp">VB</a></li>
+			</ul>
+		</div>
+		<div class="containerCad">
+
+
+
+
+
+		</div>
+		<div class="botoesCad">
+
+			<input type='button' value='VOLTAR' onclick='history.go(-1)' />
+		</div>
+		</form>
+		<div class="rodape" />
+
+
+	</div>
+
+</body>
+</html>

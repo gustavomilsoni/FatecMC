@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+
+#container{
+	height: 800px;
+	width: 700px;
+    position: absolute; /* essa informação diz que essa e a div principal e só fica em 1 div. se por em mais de 1 da erro */ 
+    /*top: 50%;  posiciona na metade da tela */
+	/*margin-top: -400px;  e retrocede metade da altura */
+	left: 50%; /* posiciona na metade da tela */
+	margin-left: -350px; /* e retrocede metade da largura */ 
+}
+
+.caixaDeTextoLado{
+	display: inline-block;
+
+}
+
+.caixaDeTextoLinhaInteira{
+	display: block;
+}
+.labelCaixaTexto{
+	display: block;
+}
+
+.banneracima{
+	height: 100px;
+	width: 700px;	
+	background: #33C4FF;
+}
+
+.containerCad{
+	background: #CCFFFF;
+	height:600px;
+	width: 700px;
+}
+.rodapeDetalhe{
+	float: left;  
+	width:100;
+	height:100;
+	background: #ffffff;
+}
+
+.botoesCad{
+	float: left;  
+	height: 19px;
+	width:700px;
+	background: #33C4FF;
+}
+
+.botaoAdcEnd{
+	float: right;
+}
+.vitrine{
+	width:700px;
+	height:600px;
+}
+.vitrineCad{
+	float: left;  
+	width:700px;
+	height:531px;
+}
+
+
+.janelaVitrine{  
+	float: left;  
+	height: 192px;
+	width: 167px;
+	border: 4px solid #CCC;
+}
+
+.menu{
+	width:700px;
+	height:30px;
+	float:left;
+	background-color:#CCCCCC;
+}
+.menu ul{
+	list-style:none;
+	margin:0 auto;
+	position:relative;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	width:100px;
+	display:block;
+	float:left;
+	padding:0 15px;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	background-color:#CCC;
+	color:#666;
+
+}
+.menu ul li a:hover{
+    color:#FFF;
+}
+.menu ul li ul{
+	display:none;
+}
+.menu ul li:hover ul{
+	display:block;
+	width:100px;
+	margin:0 0 0 0;
+}
+
+.rodape {
+	float: left;  
+	height: 70px;
+	width: 700px;
+	background-color:#CCC;
+}
+
+.minhaTabela{
+  width:96%;
+  margin:0 auto;
+  border:0;
+  box-shadow: 0 5px 30px darkgrey;
+  border-spacing: 0;
+}
+
+.minhaTabela thead th{
+  font-weight: bold;
+  background-color: black;
+  color:white;
+  
+  padding:5px 10px;
+}
+
+.minhaTabela tr td{
+  padding:5px 10px;
+  text-align: center;
+  
+  cursor: pointer; /**importante para não mostrar cursor de texto**/
+}
+
+.minhaTabela tr td:last-child{
+  text-align: right;
+}
+
+/**Cores**/
+.minhaTabela tr:nth-child(odd){
+  background-color: #eee;
+}
+
+/**Cor quando passar por cima**/
+.minhaTabela tr:hover td{
+  background-color: #feffb7;
+}
+
+/**Cor quando selecionado**/
+.minhaTabela tr.selecionado td{
+  background-color: #aff7ff;
+}
+
+.adicionarTabela{
+  background-color: white;
+  border: 1px solid black;
+  width:20%;
+  color: black;
+}
+.removerTabela{
+  background-color: white;
+  border: 1px solid black;
+  width:20%;
+	float: right;  
+  color: black;
+}
